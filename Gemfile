@@ -7,6 +7,9 @@ gem 'rails', '4.1.0'
 # Use postgresql as the database for Active Record
 gem 'pg'
 
+# Thin for server
+gem 'thin'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 
