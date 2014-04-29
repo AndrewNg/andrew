@@ -1,3 +1,5 @@
+
+
 html {
   background: url("stardust.png") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -6,6 +8,7 @@ html {
   background-size: cover;
   font-family: 'Open Sans', sans-serif;
   width: 100%;
+  -webkit-font-smoothing: antialiased;
 }
 
 body {
@@ -15,8 +18,15 @@ body {
   text-align: center;
 }
 
-h1, a, p {
+h1 {
   color: #fff;
+  font-size: 2em;
+  line-height: 1.35em;
+}
+a, p {
+  color: #fff;
+  font-size: 1.2em;
+  line-height: 1.35em;
 }
 
 .image-wrapper {
@@ -31,15 +41,11 @@ h1, a, p {
   margin-top: 100px;
 }
 
-.title-wrapper {
+.content-wrapper {
   max-width: 480px;
   padding: 0 20px;
   display: block;
-  margin: auto auto 0;
-}
-
-.content-wrapper {
-  font-size: 16px;
+  margin: 2% auto 0;
 }
 
 .social-links {
