@@ -33,6 +33,16 @@ p {
   margin: 30px 0 20px;
 }
 
+a {
+  color: #8ad0bf;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  -webkit-transition:all 0.2s ease-in-out;
+}
+
 .image-wrapper {
   -webkit-border-radius: 50em;
   -moz-border-radius: 50em;
