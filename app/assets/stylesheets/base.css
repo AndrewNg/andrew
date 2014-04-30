@@ -104,3 +104,11 @@ a {
   -o-filter: invert(0);
   -ms-filter: invert(0);
 }
+
+#resume {
+  color: #d08a9b;
+}
+
+#resume:hover {
+  color: #fff;
+}

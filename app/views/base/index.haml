@@ -4,7 +4,7 @@
     %p
       Hello, I'm Andrew. Entrepreneur, developer, and chess player. Co-founder and CEO of
       = succeed "." do
-        %a#chess{:href => "http://www.chesscademy.com", :target => "_blank"} Chesscademy
+        %a#chess{:href => "http://www.chesscademy.com"} Chesscademy
   .social-links
     = link_to "http://www.twitter.com/AndrewJNg" do
       = image_tag "/assets/twitter.png", :height => "30px", :class => "socialbutton"
@@ -16,4 +16,5 @@
       = image_tag "/assets/github.png", :height => "30px", :id => "github"
     = link_to "mailto:andrew@chesscademy.com" do
       = image_tag "/assets/email.png", :height => "30px", :class => "socialbutton"
-  %p Resume
+  %p
+    %a#resume{:href => "Andrew_Ng_Resume.pdf"} Download Resume
