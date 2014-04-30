@@ -3,11 +3,17 @@
     %img.image-wrapper{:src => "assets/headshot.jpg"}
     %p
       Hello, I'm Andrew. Entrepreneur, developer, and chess player. Co-founder and CEO of
-      %a{:href => "http://www.chesscademy.com", :target => "_blank"} Chesscademy
+      = succeed "." do
+        %a#chess{:href => "http://www.chesscademy.com", :target => "_blank"} Chesscademy
   .social-links
-    %img#socialtwitter{"src" => "/assets/facebook.png", "height" => "30px"}
-    %img#socialfacebook{"src" => "/assets/twitter.png", "height" => "30px"}
-    %img#sociallinkedin{"src" => "/assets/linkedin.png", "height" => "30px"}
-    %img#socialgithub{"src" => "/assets/github.png", "height" => "30px"}
-    %img#socialemail{"src" => "/assets/email.png", "height" => "30px"}
+    = link_to "http://www.twitter.com/AndrewJNg" do
+      = image_tag "/assets/twitter.png", :height => "30px", :class => "socialbutton"
+    = link_to "http://www.facebook.com/andrewngg" do
+      = image_tag "/assets/facebook.png", :height => "30px", :class => "socialbutton"
+    = link_to "http://www.linkedin.com/in/andrewjmng" do
+      = image_tag "/assets/linkedin.png", :height => "30px", :class => "socialbutton"
+    = link_to "http://www.github.com/AndrewNg" do
+      = image_tag "/assets/github.png", :height => "30px", :id => "github"
+    = link_to "mailto:andrew@chesscademy.com" do
+      = image_tag "/assets/email.png", :height => "30px", :class => "socialbutton"
   %p Resume
