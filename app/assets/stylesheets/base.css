@@ -104,6 +104,28 @@ a {
   -ms-filter: invert(0);
 }
 
+#devpost {
+  margin: auto 10px auto 10px;
+  filter: invert(0.7);
+  -webkit-filter: invert(0.7);
+  -moz-filter: invert(0.7);
+  -o-filter: invert(0.7);
+  -ms-filter: invert(0.7);
+  -webkit-transition: all .6s ease;
+  -moz-transition: all .6s ease;
+  -ms-transition: all .6s ease;
+  -o-transition: all .6s ease;
+  transition: all .6s ease;
+}
+
+#devpost:hover {
+  filter: invert(0);
+  -webkit-filter: invert(0);
+  -moz-filter: invert(0);
+  -o-filter: invert(0);
+  -ms-filter: invert(0);
+}
+
 #resume {
   color: #d08a9b;
 }
