@@ -1,11 +1,6 @@
 Rails.application.routes.draw do
 
   root 'base#index'
-  get 'spa103' => 'base#spa103'
-  get 'fragmentos' => 'base#fragmentos'
-  get 'cancion' => 'base#cancion'
-  get 'evento' => 'base#evento'
-  get 'evaluation' => 'base#evaluation'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
