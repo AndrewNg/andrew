@@ -41,6 +41,8 @@ gem 'spring',        group: :development
 # Use HAML instead of ERB
 gem 'haml'
 
+gem 'loofah', '~> 2.2.1'
+
 # precompile assets on production
 group :production do
   gem 'rails_12factor'
